@@ -1,0 +1,79 @@
+{
+    "sleep": [
+        {
+            "dateOfSleep": "2022-06-17",
+            "duration": 7200000,
+            "efficiency": 94,
+            "endTime": "2022-06-17T03:20:30.000",
+            "infoCode": 2,
+            "isMainSleep": true,
+            "levels": {
+                "data": [
+                    {
+                        "dateTime": "2022-06-17T01:20:30.000",
+                        "level": "asleep",
+                        "seconds": 60
+                    },
+                    {
+                        "dateTime": "2022-06-17T01:21:30.000",
+                        "level": "restless",
+                        "seconds": 120
+                    },
+                    {
+                        "dateTime": "2022-06-17T01:23:30.000",
+                        "level": "asleep",
+                        "seconds": 1440
+                    },
+                    {
+                        "dateTime": "2022-06-17T01:47:30.000",
+                        "level": "restless",
+                        "seconds": 180
+                    },
+                    {
+                        "dateTime": "2022-06-17T01:50:30.000",
+                        "level": "asleep",
+                        "seconds": 900
+                    },
+                    {
+                        "dateTime": "2022-06-17T02:05:30.000",
+                        "level": "restless",
+                        "seconds": 120
+                    },
+                    {
+                        "dateTime": "2022-06-17T02:07:30.000",
+                        "level": "asleep",
+                        "seconds": 4380
+                    }
+                ],
+                "summary": {
+                    "asleep": {
+                        "count": 0,
+                        "minutes": 113
+                    },
+                    "awake": {
+                        "count": 0,
+                        "minutes": 0
+                    },
+                    "restless": {
+                        "count": 3,
+                        "minutes": 7
+                    }
+                }
+            },
+            "logId": 37304683048,
+            "logType": "auto_detected",
+            "minutesAfterWakeup": 0,
+            "minutesAsleep": 113,
+            "minutesAwake": 7,
+            "minutesToFallAsleep": 0,
+            "startTime": "2022-06-17T01:20:30.000",
+            "timeInBed": 120,
+            "type": "classic"
+        }
+    ],
+    "summary": {
+        "totalMinutesAsleep": 113,
+        "totalSleepRecords": 1,
+        "totalTimeInBed": 120
+    }
+}
